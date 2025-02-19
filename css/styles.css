@@ -1,0 +1,61 @@
+.gradient-background {
+  background: linear-gradient(300deg,  #62DC41, #00bfff, #C336F7);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+  
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid #00bfff;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.wizard {
+  border: solid #00bfff;
+  border-radius: 20%;
+}
+
+.pantheon {
+  border: solid #00bfff;
+  border-radius: 10%;
+}
+
+.btn {
+  color: yellow;
+  background-color: #00bfff;
+}
+
+.gamer-img {
+  border: solid 0px;
+  border-radius: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
